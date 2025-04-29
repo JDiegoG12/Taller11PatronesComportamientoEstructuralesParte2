@@ -8,7 +8,7 @@ public class EvaluateProjectCommand implements Command {
     public EvaluateProjectCommand(Project project) {
         this.project = project;
     }
-
+    
     public void execute() {
         if (project.getComplexity() <= 5) {
             project.approved();
